@@ -1,0 +1,42 @@
+.red{
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  /*position: relative;
+  display: inline-block;
+  left: 50px;*/
+  position:absolute;
+  left: 200px;
+}
+.blue{
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  /*position: relative;
+  display: inline-block;
+  left: 50px;*/
+  position: absolute;
+  left: 100px;
+  top: 0px;
+}
+.yellow{
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+  /*position:relative;
+  display: inline-block;
+  left: 50px;*/
+/*  position: absolute;*/
+  left: 0px;
+  top: 0px;
+  position: fixed;
+}
+.container{
+  position: relative;
+  background-color: grey;
+  height: 300px;
+  width:300px;
+}
+body{
+  margin: 0px;
+}
